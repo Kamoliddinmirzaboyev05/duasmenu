@@ -12,12 +12,20 @@ function Home() {
     <div className="homePage">
       <div className="hero">
         <div className="container">
-          <h1>Bu yerda asosiy yangilik bo'lishi kerak</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus,
-            rerum animi. Rerum aliquam, itaque impedit enim cupiditate vero
-            labore! Non quas quibusdam laboriosam quia delectus.
-          </p>
+          <div className="heroText">
+            <h1 className="mainText">
+              Duas Menu Platformasi: Sizning qulayligingiz - bizning ustuvor
+              vazifamiz!
+            </h1>
+            <p>
+              Sizga maksimal qulaylik va g'amxo'rlik qilish uchun yaratilgan
+              yangi inavatsion vosita bo'lgan Duas Menu platformasini sizga
+              taqdim etishdan mamnunmiz.
+            </p>
+          </div>
+          <div className="heroImg">
+            <img src="/public/heroimg.webp" alt="" />
+          </div>
         </div>
       </div>
       <main>

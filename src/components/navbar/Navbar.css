@@ -1,5 +1,5 @@
 nav {
-  background-color: #eb6645;
+  background-color: #f87858;
   width: 100%;
   position: fixed;
   z-index: 999;
@@ -22,4 +22,21 @@ nav .container {
 }
 .bar svg {
   font-size: 24px;
+}
+.links {
+  display: flex;
+  padding-left: 130px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.links a {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+@media (max-width: 560px) {
+  .links {
+    display: none;
+  }
 }

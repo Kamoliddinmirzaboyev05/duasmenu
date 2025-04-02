@@ -4,8 +4,30 @@
 .homePage .hero {
   padding: 30px 10px;
   background-color: #f87858;
+  color: white;
 }
-
+.hero .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroText {
+  width: 570px;
+}
+.heroImg {
+  width: 600px;
+  overflow: hidden;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+.heroImg img {
+  width: 100%;
+}
+.mainText {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+}
 /* Styling main */
 main {
   padding: 30px 10px;
