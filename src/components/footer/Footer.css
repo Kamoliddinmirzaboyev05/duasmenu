@@ -37,7 +37,7 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 580px) {
+@media (max-width: 720px) {
   .footerItem {
     width: 110px;
     height: 80px;

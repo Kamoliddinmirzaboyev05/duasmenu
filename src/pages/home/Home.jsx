@@ -50,7 +50,7 @@ function Home() {
                 <SwiperSlide>
                   <div className="productCard">
                     <div className="productImg">
-                      <img src="/public/burger.png" alt="" />
+                      <img src="/burger.png" alt="" />
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
@@ -69,7 +69,7 @@ function Home() {
                 <SwiperSlide>
                   <div className="productCard">
                     <div className="productImg">
-                      <img src="/public/burger.png" alt="" />
+                      <img src="/burger.png" alt="" />
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
@@ -88,7 +88,7 @@ function Home() {
                 <SwiperSlide>
                   <div className="productCard">
                     <div className="productImg">
-                      <img src="/public/burger.png" alt="" />
+                      <img src="/burger.png" alt="" />
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
@@ -107,7 +107,7 @@ function Home() {
                 <SwiperSlide>
                   <div className="productCard">
                     <div className="productImg">
-                      <img src="/public/burger.png" alt="" />
+                      <img src="/burger.png" alt="" />
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
@@ -126,7 +126,7 @@ function Home() {
                 <SwiperSlide>
                   <div className="productCard">
                     <div className="productImg">
-                      <img src="/public/burger.png" alt="" />
+                      <img src="/burger.png" alt="" />
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
@@ -145,7 +145,7 @@ function Home() {
                 <SwiperSlide>
                   <div className="productCard">
                     <div className="productImg">
-                      <img src="/public/burger.png" alt="" />
+                      <img src="/burger.png" alt="" />
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
@@ -164,7 +164,7 @@ function Home() {
                 <SwiperSlide>
                   <div className="productCard">
                     <div className="productImg">
-                      <img src="/public/burger.png" alt="" />
+                      <img src="/burger.png" alt="" />
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
