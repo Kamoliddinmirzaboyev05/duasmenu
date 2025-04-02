@@ -1,7 +1,8 @@
 nav {
-  background-color: #EB6645;
+  background-color: #eb6645;
   width: 100%;
   position: fixed;
+  z-index: 999;
   box-shadow: 0 2px 10px #a22000;
 }
 nav .container {

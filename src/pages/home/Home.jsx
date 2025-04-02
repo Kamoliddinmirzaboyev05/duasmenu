@@ -6,6 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import "swiper/css";
 import { Pagination } from "swiper/modules";
+import ProductCard from "../../components/productCard/ProductCard";
 function Home() {
   return (
     <div className="homePage">
@@ -54,13 +55,19 @@ function Home() {
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
-                      <p>32.000</p>
+                      <div className="productMainInfo">
+                        <p>
+                          {" "}
+                          <i className="fas fa-dollar"></i> 32.000
+                        </p>
+                        <p>
+                          {" "}
+                          <i className="fas fa-clock"></i> 10 min{" "}
+                        </p>
+                      </div>
                       <div className="cardBtns">
-                        <button>
-                          <i className="fas fa-shopping-cart"></i>
-                        </button>
-                        <button>
-                          <i className="fa-regular fa-heart"></i>
+                        <button className="btn productCartBtn">
+                          Savatga qo'shish
                         </button>
                       </div>
                     </div>
@@ -73,13 +80,19 @@ function Home() {
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
-                      <p>32.000</p>
+                      <div className="productMainInfo">
+                        <p>
+                          {" "}
+                          <i className="fas fa-dollar"></i> 32.000
+                        </p>
+                        <p>
+                          {" "}
+                          <i className="fas fa-clock"></i> 10 min{" "}
+                        </p>
+                      </div>
                       <div className="cardBtns">
-                        <button>
-                          <i className="fas fa-shopping-cart"></i>
-                        </button>
-                        <button>
-                          <i className="fa-regular fa-heart"></i>
+                        <button className="btn productCartBtn">
+                          Savatga qo'shish
                         </button>
                       </div>
                     </div>
@@ -92,13 +105,19 @@ function Home() {
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
-                      <p>32.000</p>
+                      <div className="productMainInfo">
+                        <p>
+                          {" "}
+                          <i className="fas fa-dollar"></i> 32.000
+                        </p>
+                        <p>
+                          {" "}
+                          <i className="fas fa-clock"></i> 10 min{" "}
+                        </p>
+                      </div>
                       <div className="cardBtns">
-                        <button>
-                          <i className="fas fa-shopping-cart"></i>
-                        </button>
-                        <button>
-                          <i className="fa-regular fa-heart"></i>
+                        <button className="btn productCartBtn">
+                          Savatga qo'shish
                         </button>
                       </div>
                     </div>
@@ -111,13 +130,19 @@ function Home() {
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
-                      <p>32.000</p>
+                      <div className="productMainInfo">
+                        <p>
+                          {" "}
+                          <i className="fas fa-dollar"></i> 32.000
+                        </p>
+                        <p>
+                          {" "}
+                          <i className="fas fa-clock"></i> 10 min{" "}
+                        </p>
+                      </div>
                       <div className="cardBtns">
-                        <button>
-                          <i className="fas fa-shopping-cart"></i>
-                        </button>
-                        <button>
-                          <i className="fa-regular fa-heart"></i>
+                        <button className="btn productCartBtn">
+                          Savatga qo'shish
                         </button>
                       </div>
                     </div>
@@ -130,13 +155,19 @@ function Home() {
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
-                      <p>32.000</p>
+                      <div className="productMainInfo">
+                        <p>
+                          {" "}
+                          <i className="fas fa-dollar"></i> 32.000
+                        </p>
+                        <p>
+                          {" "}
+                          <i className="fas fa-clock"></i> 10 min{" "}
+                        </p>
+                      </div>
                       <div className="cardBtns">
-                        <button>
-                          <i className="fas fa-shopping-cart"></i>
-                        </button>
-                        <button>
-                          <i className="fa-regular fa-heart"></i>
+                        <button className="btn productCartBtn">
+                          Savatga qo'shish
                         </button>
                       </div>
                     </div>
@@ -149,38 +180,64 @@ function Home() {
                     </div>
                     <div className="productInfo">
                       <h3>Big burger</h3>
-                      <p>32.000</p>
-                      <div className="cardBtns">
-                        <button>
-                          <i className="fas fa-shopping-cart"></i>
-                        </button>
-                        <button>
-                          <i className="fa-regular fa-heart"></i>
-                        </button>
+                      <div className="productMainInfo">
+                        <p>
+                          {" "}
+                          <i className="fas fa-dollar"></i> 32.000
+                        </p>
+                        <p>
+                          {" "}
+                          <i className="fas fa-clock"></i> 10 min{" "}
+                        </p>
                       </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="productCard">
-                    <div className="productImg">
-                      <img src="/burger.png" alt="" />
-                    </div>
-                    <div className="productInfo">
-                      <h3>Big burger</h3>
-                      <p>32.000</p>
                       <div className="cardBtns">
-                        <button>
-                          <i className="fas fa-shopping-cart"></i>
-                        </button>
-                        <button>
-                          <i className="fa-regular fa-heart"></i>
+                        <button className="btn productCartBtn">
+                          Savatga qo'shish
                         </button>
                       </div>
                     </div>
                   </div>
                 </SwiperSlide>
               </Swiper>
+            </div>
+          </div>
+        </section>
+        <section className="newsSection">
+          <div className="container">
+            <h2 className="sectionTitle">Yangiliklar</h2>
+            <div className="newProductsBlock">
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+            </div>
+          </div>
+        </section>
+        <section className="newsSection">
+          <div className="container">
+            <h2 className="sectionTitle">Lavash</h2>
+            <div className="newProductsBlock">
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+            </div>
+          </div>
+        </section>
+        <section className="newsSection">
+          <div className="container">
+            <h2 className="sectionTitle">Hot Dog</h2>
+            <div className="newProductsBlock">
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
             </div>
           </div>
         </section>
