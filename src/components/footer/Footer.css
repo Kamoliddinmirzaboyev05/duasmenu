@@ -1,0 +1,36 @@
+.footerPage {
+  width: 100%;
+  background-color: #ff9a76;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+.footerItem{
+  width: 120px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.itemIcon{
+  width: 40px;
+  height: 40px;
+}
+.itemIcon img{
+  width: 100%;
+}
+.footerItem p{
+  font-size: 14px;
+}
+.footerPage .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
