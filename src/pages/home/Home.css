@@ -10,7 +10,7 @@
 main {
   padding: 30px 10px;
 }
-.sectionTitle{
+.sectionTitle {
   font-size: 22px;
   font-weight: 600;
   text-align: center;
@@ -29,14 +29,20 @@ main {
   padding: 10px;
 }
 .productImg {
-  width: 100%;
+  width: 150px;
+  margin: 0 auto;
+  mix-blend-mode: multiply;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.swiper-pagination{
+.productImg img {
+  width: 100%;
+  object-fit: contain;
+}
+.swiper-pagination {
   bottom: -5px !important;
 }
-.swiper-pagination-bullet{
+.swiper-pagination-bullet {
   background-color: #f87858 !important;
 }
