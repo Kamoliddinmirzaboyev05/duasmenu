@@ -22,16 +22,17 @@ function Home() {
       <main>
         <section>
           <div className="container">
+            <h2 className="sectionTitle">Sotuv Xitlari</h2>
             <div className="topProductsBlock">
               <Swiper
-                slidesPerView={1}
+                slidesPerView={2}
                 spaceBetween={10}
                 pagination={{
                   clickable: true,
                 }}
                 breakpoints={{
-                  640: {
-                    slidesPerView: 2,
+                  480: {
+                    slidesPerView: 3,
                     spaceBetween: 20,
                   },
                   768: {
@@ -46,11 +47,139 @@ function Home() {
                 modules={[Pagination]}
                 className="mySwiper"
               >
-                <SwiperSlide><div className="productCard">
-                  <div className="productImg">
-                    <img src="" alt="" />
+                <SwiperSlide>
+                  <div className="productCard">
+                    <div className="productImg">
+                      <img src="/public/burger.png" alt="" />
+                    </div>
+                    <div className="productInfo">
+                      <h3>Big burger</h3>
+                      <p>32.000</p>
+                      <div className="cardBtns">
+                        <button>
+                          <i className="fas fa-shopping-cart"></i>
+                        </button>
+                        <button>
+                          <i className="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
                   </div>
-                  </div></SwiperSlide>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="productCard">
+                    <div className="productImg">
+                      <img src="/public/burger.png" alt="" />
+                    </div>
+                    <div className="productInfo">
+                      <h3>Big burger</h3>
+                      <p>32.000</p>
+                      <div className="cardBtns">
+                        <button>
+                          <i className="fas fa-shopping-cart"></i>
+                        </button>
+                        <button>
+                          <i className="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="productCard">
+                    <div className="productImg">
+                      <img src="/public/burger.png" alt="" />
+                    </div>
+                    <div className="productInfo">
+                      <h3>Big burger</h3>
+                      <p>32.000</p>
+                      <div className="cardBtns">
+                        <button>
+                          <i className="fas fa-shopping-cart"></i>
+                        </button>
+                        <button>
+                          <i className="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="productCard">
+                    <div className="productImg">
+                      <img src="/public/burger.png" alt="" />
+                    </div>
+                    <div className="productInfo">
+                      <h3>Big burger</h3>
+                      <p>32.000</p>
+                      <div className="cardBtns">
+                        <button>
+                          <i className="fas fa-shopping-cart"></i>
+                        </button>
+                        <button>
+                          <i className="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="productCard">
+                    <div className="productImg">
+                      <img src="/public/burger.png" alt="" />
+                    </div>
+                    <div className="productInfo">
+                      <h3>Big burger</h3>
+                      <p>32.000</p>
+                      <div className="cardBtns">
+                        <button>
+                          <i className="fas fa-shopping-cart"></i>
+                        </button>
+                        <button>
+                          <i className="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="productCard">
+                    <div className="productImg">
+                      <img src="/public/burger.png" alt="" />
+                    </div>
+                    <div className="productInfo">
+                      <h3>Big burger</h3>
+                      <p>32.000</p>
+                      <div className="cardBtns">
+                        <button>
+                          <i className="fas fa-shopping-cart"></i>
+                        </button>
+                        <button>
+                          <i className="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="productCard">
+                    <div className="productImg">
+                      <img src="/public/burger.png" alt="" />
+                    </div>
+                    <div className="productInfo">
+                      <h3>Big burger</h3>
+                      <p>32.000</p>
+                      <div className="cardBtns">
+                        <button>
+                          <i className="fas fa-shopping-cart"></i>
+                        </button>
+                        <button>
+                          <i className="fa-regular fa-heart"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>

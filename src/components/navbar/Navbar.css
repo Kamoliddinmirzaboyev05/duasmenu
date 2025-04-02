@@ -2,6 +2,7 @@ nav {
   background-color: #EB6645;
   width: 100%;
   position: fixed;
+  box-shadow: 0 2px 10px #a22000;
 }
 nav .container {
   display: flex;

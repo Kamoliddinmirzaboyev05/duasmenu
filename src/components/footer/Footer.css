@@ -2,6 +2,7 @@
   width: 100%;
   background-color: #EB6645;
   position: fixed;
+  z-index: 999;
   bottom: 0;
   left: 0;
   right: 0;
@@ -36,7 +37,7 @@ a {
   align-items: center;
   justify-content: space-between;
 }
-@media (max-width: 560px) {
+@media (max-width: 580px) {
   .footerItem {
     width: 110px;
     height: 80px;
@@ -52,7 +53,7 @@ a {
     height: 30px;
   }
 }
-@media (max-width: 520px) {
+@media (max-width: 560px) {
   .itemIcon {
     width: 20px;
     height: 20px;
