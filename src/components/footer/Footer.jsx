@@ -37,6 +37,14 @@ function Footer() {
             <p>Ichimlik</p>
           </div>
         </Link>
+        <Link to={"/user"}>
+          <div className="footerItem">
+            <div className="itemIcon">
+              <img src="/user.svg" alt="" />
+            </div>
+            <p>Buyurtma</p>
+          </div>
+        </Link>
       </div>
     </div>
   );
